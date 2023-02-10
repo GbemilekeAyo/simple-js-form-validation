@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(./image/IMG_6432.WEBP);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(230, 230, 230, 0.6);
+    border-radius: 8px;
+}
+
+.content-div{
+    padding: 10%;
+    margin: auto;
+}
+
+.content-div h1{
+    font-size: 30px;
+    font-family: garamond;
+}
+
+
+.content-div form{
+    padding: 5%;
+    margin-top: 5%;
+}
+
+
+.content-div form input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px 30px;
+    border-radius: 0;
+    border: 1px solid black;
+    outline: none;
+}
+ .content-div form input:focus{
+    border-color:  #27a9ae;
+    box-shadow:  inser 0 0 3px #27a9ae ;
+    border: 2px solid #27a9ae;
+    }
+    
+
+
+ .fieldo input{
+    width: 70%;
+    padding: 12px;
+    margin: 0px 45px 0px;
+    margin-top: 10px;
+    border-radius: 0;
+    border: 1px solid black;
+    outline: none;
+}
+
+.fieldo{
+    margin-top: -15%;
+}
+
+.fieldo label{
+    margin-left: 45px;
+    margin-bottom: 5%;
+}
+
+
+ .fieldo .show{
+    position: absolute;
+    right: 25%;
+    top: 75%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+.fieldo .show.active{
+    color: #27a9ae;
+}
+
+
+ #btn{
+    padding: 12px 25px;
+    margin: 30px;
+    text-align: center;
+    background: skyblue;
+    border: 1px transparent;
+    border-radius: 5px;
+    font: 15px;
+    font-weight: 600;
+}
+
+
+
+
+
+#error-text{
+    position: absolute;
+    top: 10%;
+    left:22%;
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    transition:  bottom 0.5s;
+}
+
+
+#user-text{
+    position: absolute;
+    top: 10%;
+    left:22%;
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    transition:  bottom 0.5s;
+}
+
+
+
+
+#pass-text{
+    position: absolute;
+    top: 10%;
+    left:22%;
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    transition:  bottom 0.5s;
+}
+
+#passs_text{
+    position: absolute;
+    top: 10%;
+    left:22%;
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    transition:  bottom 0.5s;
+}
+
+
+
+
+

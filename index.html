@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+<div class="container">
+
+
+
+    <div class="content-div">
+
+        <h1>Registration Form</h1>
+
+   
+        <form action="#">
+         <label id="user-label">Username</label>
+         <input type="text" id="user-field" onkeyup="validateUserName()">
+         <div id="user-text"></div>
+        
+
+         
+         <label id="email-label">Email</label>
+         <input type="Email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+         <span id="error-text"></span>
+         <span id="required" ></span>
+        
+        <div class="field"></div>    
+         <label >Password</label>
+         <input type="password" id="password_1" onkeyup="active()">
+         <div id="pass-text"></div>
+        </div>    
+
+
+          <div class="field fieldo">
+         <label >Re-enter password</label>
+         <input type="password" id="password_2" disabled onkeyup="active_2()">
+         <div class="show">Show</div>
+         <div id="passs_text"></div>
+        </div>    
+        </form>
+
+        <button id="btn" onclick="submit()"> Submit</button>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
